@@ -10,7 +10,7 @@ The 2D image dataset used to train and test the model for our project was the MP
 ## Procedure
 Perfom the following steps to implement the 3-D pose estimation:
 #### 1. Download dataset
-- Download the dataset from the Datasets folder uploaded here and store them in a folder locally or on a Google drive.
+- Download the datasets from the Datasets folder uploaded here and store them in a folder locally or on a Google drive.
 #### 2. Obtain 2-D joint locations using OpenPose
 - Update the different file paths in Module1_OpenPose.ipynb according to where the datasets are stored.
 - Run the colab notebook.
