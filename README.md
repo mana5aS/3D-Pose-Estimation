@@ -18,7 +18,7 @@ Perfom the following steps to implement the 3-D pose estimation:
 - Update the different file paths in 3d_pose_estimation_GANs.ipynb according to where the datasets are stored.
 - Run the colab notebook.
 
-## Results
+## Sample Result
 <p>
     <img src="Results/img6_orig.png" width="300">
     <img src="Results/img6_2d.png" width="300">
