@@ -19,9 +19,9 @@ Perfom the following steps to implement the 3-D pose estimation:
 - Run the colab notebook.
 
 ## Results
-<!-- <p align="center">
-    <img src="../.github/media/shake.gif" width="720">
-</p>  -->
-![image](https://user-images.githubusercontent.com/30873151/146613660-4f531fb8-27ee-444b-a988-4480eed7084d.png) ![image](https://user-images.githubusercontent.com/30873151/146613718-d10698bc-12a9-4188-9c10-631332c62491.png) ![image](https://user-images.githubusercontent.com/30873151/146613744-603acfc9-feee-4351-a874-5032c2ba94e4.png)
+<p align="center">
+    <img src="Results/img6_orig" width="720">
+</p> 
+
 
 
