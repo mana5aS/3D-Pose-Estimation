@@ -19,8 +19,10 @@ Perfom the following steps to implement the 3-D pose estimation:
 - Run the colab notebook.
 
 ## Results
-<p align="center">
-    <img src="Results/img6_orig.png" width="720">
+<p>
+    <img src="Results/img6_orig.png" width="300">
+    <img src="Results/img6_2d.png" width="300">
+    <img src="Results/img6_3d.png" width="300">
 </p> 
 
 
