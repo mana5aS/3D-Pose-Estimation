@@ -6,6 +6,7 @@ This project aims to generate visually intuitive 3 Dimensional Pose estimations 
 
 ## Dataset
 The 2D image dataset used to train and test the model for our project was the MPII dataset, which is a state-of-the-art benchmark for evaluation of articulated human pose estimation. It consists of 25K images and contains over 40K humans performing over 400 different activities. This gives us a variety of images to train on, with one or multiple people in the frame, along with poses where joint positions overlap or are presented differently, allowing us to test the robustness of the GANs model.
+The MPII dataset can be found ![here](http://human-pose.mpi-inf.mpg.de/#overview)
 
 ## Procedure
 Perfom the following steps to implement the 3-D pose estimation:
