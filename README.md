@@ -11,17 +11,25 @@ The MPII dataset can be found here: http://human-pose.mpi-inf.mpg.de/#overview
 ## Procedure
 Perfom the following steps to implement the 3-D pose estimation:
 #### 1. Download dataset
-- Download the datasets from the Datasets folder uploaded here and store them in a folder locally or on a Google drive.
+- Download the official MPII dataset from the link given above.
 #### 2. Obtain 2-D joint locations using OpenPose
-- Update the different file paths in Module1_OpenPose.ipynb according to where the datasets are stored.
-- Run the colab notebook.
+- Run the colab notebook Module1_OpenPose.ipynb giving appropriate path to the MPII dataset downloaded.
+- This script does 4 things:
+    1) Creates the OpenPose model.
+    2) Runs the OpenPose model on the input images to get images with the UI skeletons overlaid (only for visualization purpose. Can skip this part.)
+    3) Runs the OpenPose model on the input images to get various joint locations and convert them into .json files.   
+    4) With the help of these JSON files, we run a function that stores the results in a numpy format for ease of use during testing. Two numpy files are created:
+        1) The joint locations (tuple (x,y,confidence)) stored as a numpy object.
+        2) Corresponding image files names stored as a numpy object.
 #### 3. Obtain 3-D human poses using GANs
-- Update the different file paths in 3d_pose_estimation_GANs.ipynb according to where the datasets are stored.
-- Run the colab notebook.
+- Run the colab notebook 3d_pose_estimation_GANs.ipynb giving appropriate paths to the various numpy files created in the previous step.
+- This script runs the GANs model on the MPII dataset (now in numpy format) and stores the generator and discriminator model after training. These trained models can be accessed directly for consecutive testing purposes.
+- It then provides visualizations of the results in 3D plots. 
+- The results are stored in the end.
 
 ## Sample Result
 <p>
-    <img src="Results/img6_orig.png" width="300">
+    <img src="Results/img6_orig.png" width="320">
     <img src="Results/img6_2d.png" width="300">
     <img src="Results/img6_3d.png" width="200">
 </p> 
