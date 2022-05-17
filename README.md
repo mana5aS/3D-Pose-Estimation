@@ -13,7 +13,7 @@ Perfom the following steps to implement the 3-D pose estimation:
 #### 1. Download dataset
 - Download the official MPII dataset from the link given above.
 #### 2. Obtain 2-D joint locations using OpenPose
-- Run the colab notebook Module1_OpenPose.ipynb giving the appropriate path to the MPII dataset downloaded.
+- Run the colab notebook openpose.ipynb giving the appropriate path to the MPII dataset downloaded.
 - This script does 4 things:
     1) Creates the OpenPose model.
     2) Runs the OpenPose model on the input images to get images with the UI skeletons overlaid (only for visualization purpose. Can skip this part.)
